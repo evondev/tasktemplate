@@ -1,0 +1,1 @@
+function toggleCategory(){document.querySelector(".category").classList.toggle("is-expand")}function troll(){alert("It does nothing haha!")}document.querySelector(".btn__toggle").addEventListener("click",toggleCategory),document.querySelectorAll(".btn__get-it").forEach(function(t){t.addEventListener("click",troll)});
