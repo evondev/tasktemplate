@@ -109,10 +109,12 @@ textarea {
         -ms-grid-column: 2;
         -ms-grid-column-span: 12;
         grid-column: 2 / 14; }
-        .header__logo img {
+        .header__logo .header__logo-link {
           margin: 0 auto; } }
     .header__logo-link {
-      display: block; }
+      display: block;
+      width: 7rem;
+      height: 7rem; }
     .header__logo img {
       overflow: hidden;
       width: 7rem;
